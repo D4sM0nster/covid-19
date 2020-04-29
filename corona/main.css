@@ -1,0 +1,178 @@
+body {
+    background-image: linear-gradient(rgb(43, 41, 41), rgb(75, 67, 97), grey);
+}
+.header {
+    height: 300px;
+    background-image:url(virus.png),radial-gradient(rgb(69, 116, 80), rgb(119, 148, 119),rgb(42, 56, 42));
+    background-size:100px 100px,cover;
+} 
+.w3-red1 {
+    border-radius: 30%;
+    background-image: url(doctora.jpg);
+}
+.w3-red1:hover {
+   transform:scale(1.5,1.5);
+}
+.fa{
+    color:black!important;
+}
+h4 {
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px black!important;
+}
+.w3-table {
+    box-shadow: 3px 3px 7px black!important;
+}
+.covid{
+    margin-left:300px;
+    text-shadow: 2px 2px 3px yellow;
+    font-size: 100px;
+    color:rgb(129, 0, 0);
+    animation: covid 3s;
+}
+.number{
+    margin-left:590px;
+    text-shadow: 2px 2px 3px yellow;
+    font-size: 100px;
+    color:rgb(129, 0, 0);
+    animation: number 3s;
+}
+@keyframes covid {
+    0% {transform:translate(-300px)}
+    25% {color:yellow;}
+    50% {color:red;}
+    100%{color:red;font-size: 180px;}
+}
+@keyframes number {
+    0% {transform:translate(500px)}
+    25% {color:yellow;}
+    50% {color:red;}
+    100%{color:red;font-size: 180px;}
+}
+.w3-blue1 {
+    border-radius: 30%;
+    background-image: url(mapa.jpg);
+    background-size: cover;
+}
+.w3-blue1:hover {
+    transform:scale(1.5,1.5);
+ }
+ .map {
+     height: 300px;
+     background-image: url(mapa1.png);
+     background-size: 1000px 300px ;
+ }
+ .particula {
+    height:30px;
+    width:30px;
+    margin-top:100px;
+     visibility: hidden;
+     animation: 2s particula infinite;
+ }
+ .particula1 {
+    height:30px;
+    width:30px;
+    margin-top:100px;
+    visibility: hidden;
+    animation: 5s particula1 infinite;
+}
+
+ @keyframes particula {
+    0% {visibility: visible;}
+    25% {transform:translate(50px, 30px);}
+    50% {transform:translate(100px ,-90px);}
+    100%{transform:scale(2,2)}
+}
+@keyframes particula1 {
+    0% {visibility: visible;}
+    25% {transform:translate(-100px, 30px);}
+    50% {transform:translate(50px ,50px);transform:rotate(400deg);}
+    100%{transform:scale(5,5)}
+}
+.w3-teal1 {
+    border-radius: 30%;
+    background-image: url(news.jpg);
+    background-size: cover;
+}
+.w3-teal1:hover {
+    transform:scale(1.5,1.5);
+ }
+ .w3-orange1 {
+    border-radius: 30%;
+    background-image: url(recover.jpg);
+    background-size: cover;
+}
+.w3-orange1:hover {
+    transform:scale(1.5,1.5);
+ }
+ h5 {
+     font-family: fantasy;
+     font-size: 30px;
+     color:whitesmoke;
+     text-shadow: 2px 2px 3px black;
+ }
+ h6 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    color:whitesmoke;
+    text-shadow: 2px 2px 3px black;
+}
+ p{ text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color:whitesmoke;
+    text-shadow: 2px 2px 3px black;
+ }
+ .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-box-back {
+    background-color: red;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .w3-container1 {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .w3-white1{
+      background-color: rgb(56, 77, 59)!important;
+  }
+  .picture {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+  .w3-light-grey1{
+      background-color: rgb(43, 58, 45);
+      text-align: center;
+  }
+  
